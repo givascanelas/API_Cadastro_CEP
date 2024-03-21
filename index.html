@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro ViaCEP</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image" href="./assets/icon.png">
+    <link href='https://fonts.googleapis.com/css?family=Unbounded' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous">
+    </script>
+
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <div id="menu">
+        <div>
+            <form action="">
+                <div id="ladoEsquerdo">
+                    <div id="cadastro">
+                        <h2>Cadastro:</h2><br>
+        
+                        <label for="name">Nome: </label><br>
+                        <input type="text" id="name" name="nome"><br>
+            
+                        <label for="email">E-mail: </label><br>
+                        <input type="email" id="email" name="e-mail"><br>
+            
+                        <label for="password">Senha: </label><br>
+                        <input type="password" id="password" name="senha"><br>
+            
+                        <label for="password">Confirmar Senha: </label><br>
+                        <input type="password" id="password" name="Csenha"><br><br><br>
+                    </div>
+                </div>
+        
+                <div id="ladoDireito">
+                    <div id="endereço">
+                        <h2>Endereço:</h2><br>
+        
+                        <label for="cep">CEP: </label><br>
+                        <input type="text" id="cep" name="cep"><br>
+                    
+                        <label for="rua">Rua: </label><br>
+                        <input type="text" id="rua" name="rua"><br>
+                    
+                        <label for="cidade">Cidade: </label><br>
+                        <input type="text" id="cidade" name="cidade"><br>
+                    
+                        <label for="uf">Estado: </label><br>
+                        <input type="text" id="uf" name="uf"><br>
+                    
+                        <label for="number">Número: </label><br>
+                        <input type="number" id="number" name="numero"><br><br>
+
+                        <button type="reset"">Voltar </button> <br>
+                        <button type="submit">Cadastrar </button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
